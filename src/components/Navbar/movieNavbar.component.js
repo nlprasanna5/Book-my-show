@@ -22,11 +22,19 @@ const NavLg = () => {
         <>
         <div className="container mx-auto px-4 flex items-center justify-between">
             <div className="flex items-center w-1/2">
+<<<<<<< HEAD
                 <div className="w-12 h-10 m-2">
                     <img 
                     src="https://i.ibb.co/zPBYW3H/imgbin-bookmyshow-office-android-ticket-png.png"
                     alt="logo" 
                     className="w-full h-full "/>
+=======
+                <div className="w-12 h-12">
+                    <img 
+                    src="logoBMS.svg"
+                    alt="logo" 
+                    className="w-full h-full"/>
+>>>>>>> 5858dbdf47712999d557b92b5badb0f517fd068d
 
                 </div>
                  <div className="w-full flex items-center bg-white gap-3 px-3 py-2 rounded-md">

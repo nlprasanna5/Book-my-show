@@ -3,6 +3,7 @@ import {FaHeart} from "react-icons/fa";
 import {BiChevronRight} from "react-icons/bi";
 import {BiShareAlt} from "react-icons/bi";
 
+<<<<<<< HEAD
 const launchRazorPay = () => {
     const options = {
         key: "rzp_test_kMz27A7WU0BrBm",
@@ -20,6 +21,8 @@ const launchRazorPay = () => {
     rzp.open();
 }
 
+=======
+>>>>>>> 5858dbdf47712999d557b92b5badb0f517fd068d
 const MovieHero = () => {
     return (
         <>
@@ -106,7 +109,11 @@ const MovieHero = () => {
                    </div>
 
                    <div className="text-white mt-6 bg-pink-700 w-32 p-3 rounded-xl"> 
+<<<<<<< HEAD
                        <button onClick={launchRazorPay} className="text-center font-bold">Book tickets</button>
+=======
+                       <button className="text-center font-bold">Book tickets</button>
+>>>>>>> 5858dbdf47712999d557b92b5badb0f517fd068d
                    </div>
 
 

@@ -11,13 +11,10 @@
 # production
 /build
 
-<<<<<<< HEAD
 
 .env
 
 
-=======
->>>>>>> 5858dbdf47712999d557b92b5badb0f517fd068d
 # misc
 .DS_Store
 .env.local

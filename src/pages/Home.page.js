@@ -1,11 +1,16 @@
+<<<<<<< HEAD
 import axios from "axios";
 import React, {useState, useEffect} from "react";
+=======
+import React from "react";
+>>>>>>> 5858dbdf47712999d557b92b5badb0f517fd068d
 import EntertainmentCardSlider from "../components/Entertainment/Entertainmentcard.component";
 import { Premier } from "../components/premier/premier.component";
 import PosterSlider from "../components/PosterSlider/PosterSlider.component";
 import TempPosters from "../config/TempPosters.config";
 
 const HomePage = () => {
+<<<<<<< HEAD
 
     const [popularMovies, setPopularMovies] = useState([]);
 
@@ -20,6 +25,8 @@ const HomePage = () => {
 
     console.log({popularMovies});
 
+=======
+>>>>>>> 5858dbdf47712999d557b92b5badb0f517fd068d
     return (
         <>
         <div className="flex flex-col gap-10">
@@ -42,14 +49,22 @@ const HomePage = () => {
             </div>
             
             
+<<<<<<< HEAD
                 <PosterSlider images={popularMovies} title="Premiers" subtitle="Brand New Releases Every Friday" isDark/>
+=======
+                <PosterSlider images={TempPosters} title="Premiers" subtitle="Brand New Releases Every Friday" isDark/>
+>>>>>>> 5858dbdf47712999d557b92b5badb0f517fd068d
             </div>
         </div>
        </div>
 
        <div className="container mx-auto px-4">
            <PosterSlider 
+<<<<<<< HEAD
            images={popularMovies}
+=======
+           images={TempPosters}
+>>>>>>> 5858dbdf47712999d557b92b5badb0f517fd068d
            title="Online Streaming Events"
            isDark={false}
            
@@ -58,7 +73,11 @@ const HomePage = () => {
 
        <div className="container mx-auto px-4">
            <PosterSlider 
+<<<<<<< HEAD
            images={popularMovies}
+=======
+           images={TempPosters}
+>>>>>>> 5858dbdf47712999d557b92b5badb0f517fd068d
            title="Outdoor Events"
            isDark={false}
            
